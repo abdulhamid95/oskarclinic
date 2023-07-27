@@ -685,8 +685,10 @@ section.bartners img {
   filter: brightness(170%) contrast(100%) saturate(0%) blur(0) hue-rotate(0deg);
 }
 
-footer {
-  text-align: center;
+@media (max-width: 992px) {
+  footer {
+    text-align: center;
+  }
 }
 footer .overlay {
   padding: 100px 0 50px;

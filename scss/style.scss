@@ -802,8 +802,9 @@ section {
 
 footer {
 
-   
+    @media (max-width: 992px) {
         text-align: center;
+    }
 
     .overlay {
         padding: 100px 0 50px;
